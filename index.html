@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#about">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem excepturi corporis dolore? Ullam odit nesciunt accusamus vitae!</p>
+            <a href="#" class="button">Our Menu</a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="row">
+            <div class="col150">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium maxime amet error animi debitis eveniet laborum, officia suscipit porro molestiae incidunt, blanditiis esse velit sapiente consequuntur at, cupiditate quos in ratione corporis voluptates ipsam laboriosam temporibus! Quo laborum sed eum, aliquam aspernatur itaque alias exercitationem vel non omnis et voluptatum est deleniti perferendis tempore rem suscipit ipsum aperiam maxime possimus!</p> <br> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veritatis itaque voluptas, voluptates sapiente officia nisi magni quae magnam similique labore assumenda non tempore eos suscipit, consequuntur sunt est voluptatem!
+                </p>
+            </div>
+            <div class="col150">
+                <div class="imgBox">
+                    <img src="img/red-wine-g3a75f4435_1280.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="menu" id="menu">
+        <div class="sectionHeading">
+            <h2 class="titleText">Our <span>M</span>emu</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, incidunt.</p>
+        </div>
+        <div class="contentBx">
+            <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/1.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div>
+            <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/2.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div>
+            <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/3.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div>
+            <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/4.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div>
+            <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/5.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div>
+            <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/6.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div>
+            <!-- <div class="menuItemCard">
+                <div class="menuItem">
+                    <div class="itemImg"><img src="img/menu/Untitled design/1.png" alt=""></div>
+                    <div class="itemName">Special Paste</div>
+                </div>
+            </div> -->
+        </div>
+        <div class="sectionBottom">
+            <a href="#menu" class="menuButton">View All</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="sectionHeading">
+            <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+            <p>Ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, incidunt.</p>
+        </div>
+        <div class="contentBx">
+            <div class="expertCard">
+                <div class="expertImg"><img src="img/Untitled design.png" alt=""></div>
+                <div class="expertInfo">Some one expert</div>
+            </div>
+            <div class="expertCard">
+                <div class="expertImg"><img src="img/Untitled design.png" alt=""></div>
+                <div class="expertInfo">Some one expert</div>
+            </div>
+            <div class="expertCard">
+                <div class="expertImg"><img src="img/Untitled design.png" alt=""></div>
+                <div class="expertInfo">Some one expert</div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",()=>{
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
