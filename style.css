@@ -181,7 +181,7 @@ header.sticky .navigation  li a:hover{
 }
 .menuItemCard{
     margin: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 }
 .menuItemCard .menuItem{
     padding: 15px;
@@ -201,4 +201,26 @@ header.sticky .navigation  li a:hover{
     padding: 10px 20px;
     background-color: #ff0157;
     color: #fff;
+}
+
+ /* --------------our kitchen expert -------------- */
+.contentBx{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contentBx .expertCard{
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.contentBx .expertCard:hover{
+    
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
+
+}
+.contentBx .expertCard .expertImg img{
+    height: 300px;
 }
