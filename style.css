@@ -169,29 +169,27 @@ header.sticky .navigation  li a:hover{
     /* border: 1px solid red; */
     padding-bottom: 30px;
 }
+.menu{
+    display: grid;
+    justify-content: center;
+}
 
 .menu .contentBx{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
 }
-.menu .contentBx .menuItemCard{
-    height: 400px;
-    padding: 10px;
+.menuItemCard{
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.menuItemCard .menuItem{
+    padding: 15px;
+}
+.menuItemCard .menuItem .itemImg img{
+    width: 300px;
+}
 
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-}
-.menu .contentBx .menuItemCard .menuItem .itemImg img{
-    width: 100%;
-    
-}
-.menu .contentBx .menuItemCard .menuItem  .itemName{
-    /* border: 1px solid red; */
-    text-align: center;
-    margin-top: 10px;
-    font-size: 1rem;
-    font-weight: 300;
-}
 .sectionBottom{
     /* border: 1px solid red; */
     display: block;
