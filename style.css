@@ -224,3 +224,115 @@ header.sticky .navigation  li a:hover{
 .contentBx .expertCard .expertImg img{
     height: 300px;
 }
+
+/* --------------------extert section ------------------ */
+
+
+
+/* --------------------testimonial section ------------------ */
+
+#testimonial{
+    height: 100vh;
+    background-image: url(img/pexels-lisa-fotios-602579.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+#testimonial .sectionHeading h2{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+#testimonial .sectionHeading P{
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+.testimonialContentBx{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: -10px;
+}
+.testimonialCard{
+    /* border: 2px solid green; */
+    background-color: #fff;
+    margin: 20px;
+    margin-top: 0;
+    padding: 40px 20px;
+    /* border-radius: 20px; */
+    text-align: justify;
+}
+.testimonialCard .testimonialImg{
+    text-align: center;
+}
+
+
+.testimonialCard .testimonialImg img{
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonialCard .testimonialTitle{
+    font-weight: bold;
+}
+
+/* --------------------contact section ------------------ */
+.contactForm, .contactImg{
+    /* width: 50%; */
+    /* border: 1px solid red; */
+    /* margin-right: -20px; */
+}
+
+#contactForm{
+    /* border: 1px solid; */
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+#contactForm:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#contactForm input,
+#contactForm textarea{
+    display: block;
+    width: 90%;
+    margin: 10px;
+    outline: none;
+    padding: 10px;
+    resize: none;
+
+    font-size: 14px;
+}
+#contactForm input[type="submit"]{
+    width: 30%;
+    border: none;
+    color: #fff;
+    background-color: #ff0157;
+
+    font-weight: bold;
+}
+.contactImg{
+    margin-left: 20px;
+    /* border: 1px solid; */
+}
+
+
+/* --------------------copiright section ------------------ */
+#copyright{
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+#copyright p a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+#copyright p a:hover{
+    color: #ff0157;
+}
+
