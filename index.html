@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive web design 01</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
     <header>
         <a href="#" class="logo">Food<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
         <ul class="navigation">
             <li><a href="#banner">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -36,7 +38,7 @@
             </div>
             <div class="col150">
                 <div class="imgBox">
-                    <img src="img/red-wine-g3a75f4435_1280.jpg" alt="">
+                    <img src="../" alt="">
                 </div>
             </div>
         </div>
@@ -97,7 +99,6 @@
     </section>
     <!-- menu section end  -->
 
-
     <!-- expert section start  -->
     <section class="expert" id="expert">
         <div class="sectionHeading">
@@ -119,7 +120,7 @@
             </div>
         </div>
     </section>
-        <!-- expert section end -->
+    <!-- expert section end -->
 
     <!-- testimonials section start  -->
     <section id="testimonial" class="testimonial">
@@ -190,7 +191,17 @@
         window.addEventListener("scroll",()=>{
             const header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
-        })
+        });
+
+
+
+        function toggleMenu(){
+            const toggleMenu =  document.querySelector(".menuToggle");
+            const navigation = document.querySelector(".navigation");
+            navigation.classList.toggle("active")
+            toggleMenu.classList.toggle("active")
+        }
+
     </script>
 </body>
 </html>
