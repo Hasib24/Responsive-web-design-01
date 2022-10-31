@@ -154,7 +154,7 @@ header.sticky .navigation  li a:hover{
 }
 .imgBox img{
     width: 80%;
-    max-width: 500px;
+    /* max-width: 500px; */
     margin-top: 55px;
 }
 .about .row .col150 p{
