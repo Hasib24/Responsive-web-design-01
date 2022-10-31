@@ -144,3 +144,31 @@
       
   
 }
+@media ( max-width: 480px){
+
+    header .navigation.active{
+        width: 40%;
+        height: 60%;
+    }
+
+    .navigation li a {
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+        font-size: 1em;  
+    }
+
+    #testimonial {
+        height: 100vh;
+        padding: 100px 10px;  
+    }
+
+    .contactForm {
+        width: 100%;
+        margin-top: 0;
+    }
+    #contactForm{
+        margin-top: 0;
+    }
+
+}
